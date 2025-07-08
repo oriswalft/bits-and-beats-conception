@@ -2,8 +2,13 @@
 # Rôle
 # Bibliothèque 
 # Jeu
+# Plateforme
 # Bande-son
 # Musique 
+# Compositeur
+# Tag
+# Langue
+# Source
 # Playlist
 # Recherche
 # Historique
