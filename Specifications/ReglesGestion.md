@@ -23,6 +23,13 @@
 - RG¤ : Une bibliothèque doit contenir un ou plusieurs jeux
 
 # Jeu
+- RG¤ : Un jeu doit avoir un titre
+- RG¤ : Un jeu doit avoir un développeur
+- RG¤ : Un jeu doit avoir un genre
+- RG¤ : Un jeu doit avoir une année de sortie
+  
+# Développeur
+# Genre
 # Plateforme
 # Bande-son
 # Musique 
