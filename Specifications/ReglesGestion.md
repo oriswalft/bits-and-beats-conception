@@ -1,3 +1,12 @@
-# Utilisateur
-# Piste audio
-# 
+# Joueur
+# Rôle
+# Bibliothèque 
+# Jeu
+# Bande-son
+# Musique 
+# Playlist
+# Recherche
+# Historique
+# Commentaire
+# Vote
+# Favoris
