@@ -12,13 +12,16 @@
 - RG¤ : Un joueur peut faire des recherches
 - RG¤ : Un joueur peut donner son vote sur la correspondance d'une musique
 - RG¤ : Un joueur peut avoir un historique de recherche
-- RG¤ : Un joueur peut poster un commentaire sur une proposition de musique
+- RG¤ : Un joueur peut poster un commentaire sur une proposition de musique qui lui appartient ou celle d'un autre joueur
 
 # Rôle
 - RG¤ : Un rôle doit avoir un nom
 - RG¤ : Un rôle doit avoir des permissions
 
 # Bibliothèque 
+- RG¤ : Une bibliothèque doit appartenir à un joueur
+- RG¤ : Une bibliothèque doit contenir un ou plusieurs jeux
+
 # Jeu
 # Plateforme
 # Bande-son
