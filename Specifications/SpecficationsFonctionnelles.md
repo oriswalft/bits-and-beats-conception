@@ -1,11 +1,12 @@
 # 📊 Tableau des spécifications
 
-| Spécifications Fonctionnelles    | Spécifications Non Fonctionnelles |
-| -------------------------------- | --------------------------------- |
-| Analyse audio                    | Performance                       |
-| Recherche de musiques similaires | Sécurité                          |
-| Affichage des résultats          | Portabilité                       |
-| Historique de recherches         | Scalabilité                       |
-| Système de feedback utilisateur  | Accessibilité                     |
-| Authentification (facultatif)    | Maintenabilité                    |
-| Interface utilisateur            |                                   |
+| Spécifications Fonctionnelles                               | Spécifications Non Fonctionnelles |
+| ----------------------------------------------------------- | --------------------------------- |
+| - Authentification                                          | - Sécurité                        |
+| - Synchroniser ses bibliothèques (Steam, Epic, GOG, etc...) | - Accessibilité                   |
+| - Recherches de musique                                     | - Compatibilité                   |
+| - Historique de recherches                                  | - Performance                     |
+| - Donner des retours (vote, commentaire)                    | - Scalabilité                     |
+| - Ajouter des favoris (jeux et musiques)                    | - Disponibilité                   |
+|                                                             | - Stockage                        |
+|                                                             | - Maintenabilité                  |
