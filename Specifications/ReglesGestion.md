@@ -9,7 +9,9 @@
 - RG¤ : Un joueur peut proposer des musiques 
 - RG¤ : Un joueur peut faire des recherches
 - RG¤ : Un joueur peut donner son vote sur la correspondance d'une musique
-  
+- RG¤ : Un joueur peut avoir un historique de recherche
+- RG¤ : Un joueur peut poster un commentaire sur une proposition de musique
+
 # Rôle
 # Bibliothèque 
 # Jeu
