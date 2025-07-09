@@ -41,6 +41,13 @@
 - RG¤ : Une plateforme peut être attribuée à un ou plusieurs jeux
   
 # Bande-son
+- RG¤ : Une bande-son doit être tiré d'un jeu
+- RG¤ : Une bande-son doit avoir un titre
+- RG¤ : Une bande-son doit avoir une ou plusieurs musiques
+- RG¤ : Une bande-son doit avoir un compositeur
+- RG¤ : Une bande-son peut avoir une pochette d'album
+- RG¤ : Une bande-son peut être en favoris d'un ou plusieurs joueurs
+
 # Musique 
 # Compositeur
 # Tag
