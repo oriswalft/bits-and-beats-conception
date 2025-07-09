@@ -45,10 +45,17 @@
 - RG¤ : Une bande-son doit avoir un titre
 - RG¤ : Une bande-son doit avoir une ou plusieurs musiques
 - RG¤ : Une bande-son doit avoir un compositeur
+- RG¤ : Une bande-son doit avoir au minimum un tag
 - RG¤ : Une bande-son peut avoir une pochette d'album
 - RG¤ : Une bande-son peut être en favoris d'un ou plusieurs joueurs
 
 # Musique 
+- RG¤ : Une musique doit avoir une source
+- RG¤ : Une musique doit avoir un titre
+- RG¤ : Une musique doit avoir un compositeur
+- RG¤ : Une musique doit avoir au minimum un tag
+- RG¤ : Une musique peut avoir une pochette d'album
+
 # Compositeur
 # Tag
 # Langue
