@@ -33,7 +33,13 @@
 - RG¤ : Un développeur peut être une personne ou un groupe
   
 # Genre
+- RG¤ : Un genre doit avoir un nom
+- RG¤ : Un genre peut être spécifié à un ou plusieurs jeux
+
 # Plateforme
+- RG¤ : Une plateforme doit avoir un nom
+- RG¤ : Une plateforme peut être attribuée à un ou plusieurs jeux
+  
 # Bande-son
 # Musique 
 # Compositeur
