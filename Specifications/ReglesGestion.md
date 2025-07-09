@@ -29,6 +29,9 @@
 - RG¤ : Un jeu doit avoir une année de sortie
   
 # Développeur
+- RG¤ : Un développeur doit avoir un nom
+- RG¤ : Un développeur peut être une personne ou un groupe
+  
 # Genre
 # Plateforme
 # Bande-son
