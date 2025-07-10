@@ -110,5 +110,12 @@
 - RG¤ : Un vote dépend d'une proposition de musique
 
 # Proposition de musique
+- RG¤ : Une proposition de musique doit être réalisée par un joueur
+- RG¤ : Une proposition de musique doit avoir une source
+- RG¤ : Une proposition de musique doit avoir un titre
+- RG¤ : Une proposition de musique doit avoir au minimum un tag
+- RG¤ : Une proposition doit être en rapport avec une musique déjà présente
+- RG¤ : Une proposition peut recevoir des commentaires
+- RG¤ : Une proposition peut recevoir des votes
 
 # Favoris
