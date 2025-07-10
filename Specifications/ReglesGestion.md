@@ -1,6 +1,6 @@
 # Joueur
 - RG¤ : Un joueur doit avoir un pseudonyme
-- RG¤ : Un joueur doit avoir une adresse email
+- RG¤ : Un joueur doit avoir une adresse email unique
 - RG¤ : Un joueur doit avoir un mot de passe
 - RG¤ : Un joueur doit avoir un rôle
 - RG¤ : Un joueur peut avoir une photo de profil
@@ -13,9 +13,11 @@
 - RG¤ : Un joueur peut donner son vote sur la correspondance d'une musique
 - RG¤ : Un joueur peut avoir un historique de recherche
 - RG¤ : Un joueur peut poster un commentaire sur une proposition de musique qui lui appartient ou celle d'un autre joueur
+- RG¤ : Un joueur peut modifier son profil
+- RG¤ : Un joueur peut effacer son profil
 
 # Rôle
-- RG¤ : Un rôle doit avoir un nom
+- RG¤ : Un rôle doit avoir un nom unique
 - RG¤ : Un rôle doit avoir des permissions
 
 # Bibliothèque 
@@ -52,7 +54,8 @@
 - RG¤ : Une bande-son peut être en favoris d'un ou plusieurs joueurs
 
 # Musique 
-- RG¤ : Une musique doit avoir une source
+- RG¤ : Une musique doit avoir une source principale
+- RG¤ : Une musique peut avoir plusieurs sources secondaires
 - RG¤ : Une musique doit avoir un titre
 - RG¤ : Une musique doit avoir un compositeur
 - RG¤ : Une musique doit avoir au minimum un tag
@@ -84,7 +87,7 @@
 # Playlist
 - RG¤ : Une playlist doit appartenir à un joueur
 - RG¤ : Une playlist doit contenir au minimum une musique
-- RG¤ : Une playlist doit avoir un nom
+- RG¤ : Une playlist doit avoir un nom unique
 
 # Recherche
 - RG¤ : Une recherche doit avoir un contenu
@@ -124,3 +127,5 @@
 - RG¤ : Un favoris peut concerner une musique
 - RG¤ : Un favoris peut concerner une playlist
 - RG¤ : Un favoris peut concerner une bande-son
+- RG¤ : Un favoris ne peut pas être ajouté deux fois
+- RG¤ : Un favoris peut être supprimé
