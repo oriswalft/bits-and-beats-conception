@@ -71,7 +71,7 @@
 
 # Langue
 - RG¤ : Une langue doit avoir un nom unique
-- RG¤ : Une langue peut-être réelle ou fictive
+- RG¤ : Une langue peut être réelle ou fictive
 - RG¤ : Une langue peut avoir des variations
 - RG¤ : Une langue doit avoir au minimum une musique
 
@@ -79,7 +79,12 @@
 - RG¤ : Une source doit être un lien valide
 - RG¤ : Une source peut-être une bande-son
 - RG¤ : Une source peut être une musique
+
 # Playlist
+- RG¤ : Une playlist doit appartenir à un joueur
+- RG¤ : Une playlist doit contenir au minimum une musique
+- RG¤ : Une playlist doit avoir un nom
+
 # Recherche
 # Historique
 # Commentaire
