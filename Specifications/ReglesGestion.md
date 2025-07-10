@@ -31,6 +31,7 @@
 # Développeur
 - RG¤ : Un développeur doit avoir un nom
 - RG¤ : Un développeur peut être une personne ou un groupe
+- RG¤ : Un développeur doit être attribué au minimum sur un jeu
   
 # Genre
 - RG¤ : Un genre doit avoir un nom
