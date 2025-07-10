@@ -86,7 +86,12 @@
 - RG¤ : Une playlist doit avoir un nom
 
 # Recherche
-- RG¤ : Une recherche doit contenir 
+- RG¤ : Une recherche doit avoir un contenu
+- RG¤ : Une recherche peut concerner une musique
+- RG¤ : Une recherche peut concerner une bande-son
+- RG¤ : Une recherche peut concerner un jeu
+- RG¤ : Une recherche peut concerner un ou plusieurs tags
+
 # Historique
 - RG¤ : Un historique doit appartenir à un joueur
 - RG¤ : Un historique doit avoir au minimum une recherche
