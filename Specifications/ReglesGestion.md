@@ -119,3 +119,7 @@
 - RG¤ : Une proposition peut recevoir des votes
 
 # Favoris
+- RG¤ : Un favoris doit appartenir à un joueur
+- RG¤ : Un favoris peut concerner une musique
+- RG¤ : Un favoris peut concerner une playlist
+- RG¤ : Un favoris peut concerner une bande-son
