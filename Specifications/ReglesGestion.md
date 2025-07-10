@@ -105,4 +105,8 @@
 - RG¤ : Un commentaire peut être lié à un autre commentaire
 
 # Vote
+- RG¤ : Un vote peut être donné par un joueur
+- RG¤ : Un vote doit être positif ou négatif
+- RG¤ : Un vote dépend d'une proposition de musique
+
 # Favoris
