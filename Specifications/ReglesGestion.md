@@ -46,6 +46,7 @@
 - RG¤ : Une bande-son doit avoir une ou plusieurs musiques
 - RG¤ : Une bande-son doit avoir un compositeur
 - RG¤ : Une bande-son doit avoir au minimum un tag
+- RG¤ : Une bande-son doit avoir une source
 - RG¤ : Une bande-son peut avoir une pochette d'album
 - RG¤ : Une bande-son peut être en favoris d'un ou plusieurs joueurs
 
@@ -69,7 +70,15 @@
 - RG¤ : Un tag peut être attribué à une ou plusieurs bande-son
 
 # Langue
+- RG¤ : Une langue doit avoir un nom unique
+- RG¤ : Une langue peut-être réelle ou fictive
+- RG¤ : Une langue peut avoir des variations
+- RG¤ : Une langue doit avoir au minimum une musique
+
 # Source
+- RG¤ : Une source doit être un lien valide
+- RG¤ : Une source peut-être une bande-son
+- RG¤ : Une source peut être une musique
 # Playlist
 # Recherche
 # Historique
