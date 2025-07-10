@@ -15,6 +15,8 @@
 - RG¤ : Un joueur peut poster un commentaire sur une proposition de musique qui lui appartient ou celle d'un autre joueur
 - RG¤ : Un joueur peut modifier son profil
 - RG¤ : Un joueur peut effacer son profil
+- RG¤ : Un joueur peut afficher ou non ses comptes extérieur
+- RG¤ : Un joueur peut révoquer l'accès au compte extérieur
 
 # Rôle
 - RG¤ : Un rôle doit avoir un nom unique
@@ -132,5 +134,7 @@
 
 # Synchronisation 
 - RG¤ : Un joueur peut synchroniser une bibliothèque d'un compte extérieur
-- RG¤ : Un joueur peut afficher ou non ses comptes extérieur
-- RG¤ : Un joueur peut révoquer l'accès au compte extérieur
+  
+# Compte extérieur
+- RG¤ : Un compte extérieur doit être lié au profil du joueur
+- RG¤ : Un compte extérieur doit provenir d'une plateforme reconnue
