@@ -98,5 +98,11 @@
 - RG¤ : Un historique doit avoir un temps de conservation
 
 # Commentaire
+- RG¤ : Un commentaire doit être publié par un joueur
+- RG¤ : Un commentaire doit avoir un contenu
+- RG¤ : Un commentaire peut être publié sur une musique
+- RG¤ : Un commentaire peut être publié sur une bande-son
+- RG¤ : Un commentaire peut être lié à un autre commentaire
+
 # Vote
 # Favoris
