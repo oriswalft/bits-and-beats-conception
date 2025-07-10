@@ -57,6 +57,12 @@
 - RG¤ : Une musique peut avoir une pochette d'album
 
 # Compositeur
+- RG¤ : Un compositeur doit avoir un nom ou un pseudonyme
+- RG¤ : Un compositeur peut avoir un prénom
+- RG¤ : Un compositeur peut être une personne ou un groupe
+- RG¤ : Un compositeur doit avoir composé au minimum une musique
+- RG¤ : Un compositeur peut avoir participé à la composition d'une musique
+  
 # Tag
 # Langue
 # Source
