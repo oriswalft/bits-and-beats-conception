@@ -109,4 +109,6 @@
 - RG¤ : Un vote doit être positif ou négatif
 - RG¤ : Un vote dépend d'une proposition de musique
 
+# Proposition de musique
+
 # Favoris
