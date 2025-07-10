@@ -129,3 +129,8 @@
 - RG¤ : Un favoris peut concerner une bande-son
 - RG¤ : Un favoris ne peut pas être ajouté deux fois
 - RG¤ : Un favoris peut être supprimé
+
+# Synchronisation 
+- RG¤ : Un joueur peut synchroniser une bibliothèque d'un compte extérieur
+- RG¤ : Un joueur peut afficher ou non ses comptes extérieur
+- RG¤ : Un joueur peut révoquer l'accès au compte extérieur
