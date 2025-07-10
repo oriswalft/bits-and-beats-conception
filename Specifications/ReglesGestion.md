@@ -64,6 +64,10 @@
 - RG¤ : Un compositeur peut avoir participé à la composition d'une musique
   
 # Tag
+- RG¤ : Un tag doit avoir un nom unique
+- RG¤ : Un tag peut être attribué à une ou plusieurs musique
+- RG¤ : Un tag peut être attribué à une ou plusieurs bande-son
+
 # Langue
 # Source
 # Playlist
