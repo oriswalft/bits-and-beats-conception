@@ -25,6 +25,7 @@
 # Bibliothèque 
 - RG¤ : Une bibliothèque doit appartenir à un joueur
 - RG¤ : Une bibliothèque doit contenir un ou plusieurs jeux
+- RG¤ : Une bibliothèque peut être importée par un compte extérieur
 
 # Jeu
 - RG¤ : Un jeu doit avoir un titre
