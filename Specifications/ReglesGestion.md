@@ -161,7 +161,8 @@
 
 ### Synchronisation 
 - RG¤ : Un joueur peut synchroniser une bibliothèque d'un compte extérieur
-  
+
 ### Compte extérieur
 - RG¤ : Un compte extérieur doit être lié au profil du joueur
 - RG¤ : Un compte extérieur doit provenir d'une plateforme reconnue
+- RG¤ : Un compte extérieur peut être utilisé pour importer une bibliothèque
