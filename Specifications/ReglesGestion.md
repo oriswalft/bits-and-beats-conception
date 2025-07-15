@@ -95,11 +95,12 @@
 - RG¤ : Un compositeur peut être une personne ou un groupe
 - RG¤ : Un compositeur doit avoir composé au minimum une musique
 - RG¤ : Un compositeur peut avoir participé à la composition d'une musique
-  
+
 ### Tag
 - RG¤ : Un tag doit avoir un nom unique
 - RG¤ : Un tag peut être attribué à une ou plusieurs musique
 - RG¤ : Un tag peut être attribué à une ou plusieurs bande-son
+- RG¤ : Un tag peut être attribué à un ou plusieurs jeux
 
 ### Langue
 - RG¤ : Une langue doit avoir un nom unique
