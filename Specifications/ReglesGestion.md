@@ -46,12 +46,14 @@
 - RG¤ : Un jeu peut avoir un ou plusieurs tags
 - RG¤ : Un jeu peut être en favoris d'un ou plusieurs joueurs
 
-  
 ### Développeur
 - RG¤ : Un développeur doit avoir un nom
 - RG¤ : Un développeur peut être une personne ou un groupe
 - RG¤ : Un développeur doit être attribué au minimum sur un jeu
-  
+- RG¤ : Un développeur peut avoir un site web
+- RG¤ : Un développeur peut avoir un logo
+- RG¤ : Un développeur peut avoir un résumé
+
 ### Genre
 - RG¤ : Un genre doit avoir un nom
 - RG¤ : Un genre peut être spécifié à un ou plusieurs jeux
