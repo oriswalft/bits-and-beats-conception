@@ -163,6 +163,6 @@
 - RG119 : Un joueur peut synchroniser une bibliothèque d'un compte extérieur
 
 ### Compte extérieur
-- RG¤120 : Un compte extérieur doit être lié au profil du joueur
+- RG120 : Un compte extérieur doit être lié au profil du joueur
 - RG121 : Un compte extérieur doit provenir d'une plateforme reconnue
 - RG122 : Un compte extérieur peut être utilisé pour importer une bibliothèque
