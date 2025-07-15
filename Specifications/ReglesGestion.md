@@ -30,139 +30,139 @@
 - RG26 : Un rôle peut être attribué à un ou plusieurs joueurs
 
 ### Bibliothèque 
-- RG¤ : Une bibliothèque doit appartenir à un joueur
-- RG¤ : Une bibliothèque doit contenir un ou plusieurs jeux
-- RG¤ : Une bibliothèque peut être importée par un compte extérieur
+- RG27 : Une bibliothèque doit appartenir à un joueur
+- RG28: Une bibliothèque doit contenir un ou plusieurs jeux
+- RG29 : Une bibliothèque peut être importée par un compte extérieur
 
 ### Jeu
-- RG¤ : Un jeu doit avoir un titre
-- RG¤ : Un jeu doit avoir un développeur
-- RG¤ : Un jeu doit avoir un genre
-- RG¤ : Un jeu doit avoir une année de sortie
-- RG¤ : Un jeu doit avoir une ou plusieurs plateformes
-- RG¤ : Un jeu doit avoir une bande-son
-- RG¤ : Un jeu peut avoir une pochette
-- RG¤ : Un jeu peut avoir un résumé
-- RG¤ : Un jeu peut avoir un ou plusieurs tags
-- RG¤ : Un jeu peut être en favoris d'un ou plusieurs joueurs
+- RG30 : Un jeu doit avoir un titre
+- RG31 : Un jeu doit avoir un développeur
+- RG32 : Un jeu doit avoir un genre
+- RG33 : Un jeu doit avoir une année de sortie
+- RG34 : Un jeu doit avoir une ou plusieurs plateformes
+- RG35 : Un jeu doit avoir une bande-son
+- RG36 : Un jeu peut avoir une pochette
+- RG37 : Un jeu peut avoir un résumé
+- RG38 : Un jeu peut avoir un ou plusieurs tags
+- RG39 : Un jeu peut être en favoris d'un ou plusieurs joueurs
 
 ### Développeur
-- RG¤ : Un développeur doit avoir un nom
-- RG¤ : Un développeur peut être une personne ou un groupe
-- RG¤ : Un développeur doit être attribué au minimum sur un jeu
-- RG¤ : Un développeur peut avoir un site web
-- RG¤ : Un développeur peut avoir un logo
-- RG¤ : Un développeur peut avoir un résumé
+- RG40 : Un développeur doit avoir un nom
+- RG41 : Un développeur peut être une personne ou un groupe
+- RG42 : Un développeur doit être attribué au minimum sur un jeu
+- RG43 : Un développeur peut avoir un site web
+- RG44 : Un développeur peut avoir un logo
+- RG45 : Un développeur peut avoir un résumé
 
 ### Genre
-- RG¤ : Un genre doit avoir un nom
-- RG¤ : Un genre peut être spécifié à un ou plusieurs jeux
+- RG46 : Un genre doit avoir un nom
+- RG47 : Un genre peut être spécifié à un ou plusieurs jeux
 
 ### Plateforme
-- RG¤ : Une plateforme doit avoir un nom
-- RG¤ : Une plateforme peut être attribuée à un ou plusieurs jeux
-- RG¤ : Une plateforme peut avoir un logo
-- RG¤ : Une plateforme peut avoir un résumé
-- RG¤ : Une plateforme peut avoir un site web
+- RG48 : Une plateforme doit avoir un nom
+- RG49 : Une plateforme peut être attribuée à un ou plusieurs jeux
+- RG50 : Une plateforme peut avoir un logo
+- RG51 : Une plateforme peut avoir un résumé
+- RG52 : Une plateforme peut avoir un site web
 
 ### Pochette
-- RG¤ : Une pochette doit être une image
-- RG¤ : Une pochette peut être attribuée à un jeu
-- RG¤ : Une pochette peut être attribuée à une bande-son
-- RG¤ : Une pochette peut être attribuée à une musique
+- RG53 : Une pochette doit être une image
+- RG54 : Une pochette peut être attribuée à un jeu
+- RG55 : Une pochette peut être attribuée à une bande-son
+- RG56 : Une pochette peut être attribuée à une musique
 
 ### Bande-son
-- RG¤ : Une bande-son doit être tiré d'un jeu
-- RG¤ : Une bande-son doit avoir un titre
-- RG¤ : Une bande-son doit avoir une ou plusieurs musiques
-- RG¤ : Une bande-son doit avoir un compositeur
-- RG¤ : Une bande-son doit avoir au minimum un tag
-- RG¤ : Une bande-son doit avoir une source
-- RG¤ : Une bande-son peut avoir une pochette d'album
-- RG¤ : Une bande-son peut être en favoris d'un ou plusieurs joueurs
+- RG57 : Une bande-son doit être tiré d'un jeu
+- RG58 : Une bande-son doit avoir un titre
+- RG59 : Une bande-son doit avoir une ou plusieurs musiques
+- RG60 : Une bande-son doit avoir un compositeur
+- RG61 : Une bande-son doit avoir au minimum un tag
+- RG62 : Une bande-son doit avoir une source
+- RG63 : Une bande-son peut avoir une pochette d'album
+- RG64 : Une bande-son peut être en favoris d'un ou plusieurs joueurs
 
 ### Musique 
-- RG¤ : Une musique doit avoir une source principale
-- RG¤ : Une musique peut avoir plusieurs sources secondaires
-- RG¤ : Une musique doit avoir un titre
-- RG¤ : Une musique doit avoir un compositeur
-- RG¤ : Une musique doit avoir au minimum un tag
-- RG¤ : Une musique peut avoir une pochette d'album
+- RG65 : Une musique doit avoir une source principale
+- RG66 : Une musique peut avoir plusieurs sources secondaires
+- RG67 : Une musique doit avoir un titre
+- RG68 : Une musique doit avoir un compositeur
+- RG69 : Une musique doit avoir au minimum un tag
+- RG70 : Une musique peut avoir une pochette d'album
 
 ### Compositeur
-- RG¤ : Un compositeur doit avoir un nom ou un pseudonyme
-- RG¤ : Un compositeur peut avoir un prénom
-- RG¤ : Un compositeur peut être une personne ou un groupe
-- RG¤ : Un compositeur doit avoir composé au minimum une musique
-- RG¤ : Un compositeur peut avoir participé à la composition d'une musique
+- RG71 : Un compositeur doit avoir un nom ou un pseudonyme
+- RG72 : Un compositeur peut avoir un prénom
+- RG73 : Un compositeur peut être une personne ou un groupe
+- RG74 : Un compositeur doit avoir composé au minimum une musique
+- RG75 : Un compositeur peut avoir participé à la composition d'une musique
 
 ### Tag
-- RG¤ : Un tag doit avoir un nom unique
-- RG¤ : Un tag peut être attribué à une ou plusieurs musique
-- RG¤ : Un tag peut être attribué à une ou plusieurs bande-son
-- RG¤ : Un tag peut être attribué à un ou plusieurs jeux
+- RG76 : Un tag doit avoir un nom unique
+- RG77 : Un tag peut être attribué à une ou plusieurs musique
+- RG78 : Un tag peut être attribué à une ou plusieurs bande-son
+- RG79 : Un tag peut être attribué à un ou plusieurs jeux
 
 ### Langue
-- RG¤ : Une langue doit avoir un nom unique
-- RG¤ : Une langue peut être réelle ou fictive
-- RG¤ : Une langue peut avoir des variations
-- RG¤ : Une langue doit avoir au minimum une musique
+- RG80 : Une langue doit avoir un nom unique
+- RG81 : Une langue peut être réelle ou fictive
+- RG82 : Une langue peut avoir des variations
+- RG83 : Une langue doit avoir au minimum une musique
 
 ### Source
-- RG¤ : Une source doit être un lien valide
-- RG¤ : Une source peut-être une bande-son
-- RG¤ : Une source peut être une musique
+- RG84 : Une source doit être un lien valide
+- RG85 : Une source peut-être une bande-son
+- RG86 : Une source peut être une musique
 
 ### Playlist
-- RG¤ : Une playlist doit appartenir à un joueur
-- RG¤ : Une playlist doit contenir au minimum une musique
-- RG¤ : Une playlist doit avoir un nom unique
+- RG87 : Une playlist doit appartenir à un joueur
+- RG88 : Une playlist doit contenir au minimum une musique
+- RG89 : Une playlist doit avoir un nom unique
 
 ### Recherche
-- RG¤ : Une recherche doit avoir un contenu
-- RG¤ : Une recherche peut concerner une musique
-- RG¤ : Une recherche peut concerner une bande-son
-- RG¤ : Une recherche peut concerner un jeu
-- RG¤ : Une recherche peut concerner un ou plusieurs tags
+- RG90 : Une recherche doit avoir un contenu
+- RG91 : Une recherche peut concerner une musique
+- RG92 : Une recherche peut concerner une bande-son
+- RG93 : Une recherche peut concerner un jeu
+- RG94 : Une recherche peut concerner un ou plusieurs tags
 
 ### Historique
-- RG¤ : Un historique doit appartenir à un joueur
-- RG¤ : Un historique doit avoir au minimum une recherche
-- RG¤ : Un historique doit avoir un temps de conservation
+- RG95 : Un historique doit appartenir à un joueur
+- RG96 : Un historique doit avoir au minimum une recherche
+- RG97 : Un historique doit avoir un temps de conservation
 
 ### Commentaire
-- RG¤ : Un commentaire doit être publié par un joueur
-- RG¤ : Un commentaire doit avoir un contenu
-- RG¤ : Un commentaire peut être publié sur une musique
-- RG¤ : Un commentaire peut être publié sur une bande-son
-- RG¤ : Un commentaire peut être lié à un autre commentaire
+- RG98 : Un commentaire doit être publié par un joueur
+- RG99 : Un commentaire doit avoir un contenu
+- RG100 : Un commentaire peut être publié sur une musique
+- RG101 : Un commentaire peut être publié sur une bande-son
+- RG102 : Un commentaire peut être lié à un autre commentaire
 
 ### Vote
-- RG¤ : Un vote peut être donné par un joueur
-- RG¤ : Un vote doit être positif ou négatif
-- RG¤ : Un vote dépend d'une proposition de musique
+- RG103 : Un vote peut être donné par un joueur
+- RG104 : Un vote doit être positif ou négatif
+- RG105 : Un vote dépend d'une proposition de musique
 
 ### Proposition de musique
-- RG¤ : Une proposition de musique doit être réalisée par un joueur
-- RG¤ : Une proposition de musique doit avoir une source
-- RG¤ : Une proposition de musique doit avoir un titre
-- RG¤ : Une proposition de musique doit avoir au minimum un tag
-- RG¤ : Une proposition doit être en rapport avec une musique déjà présente
-- RG¤ : Une proposition peut recevoir des commentaires
-- RG¤ : Une proposition peut recevoir des votes
+- RG106 : Une proposition de musique doit être réalisée par un joueur
+- RG107 : Une proposition de musique doit avoir une source
+- RG108 : Une proposition de musique doit avoir un titre
+- RG109 : Une proposition de musique doit avoir au minimum un tag
+- RG110 : Une proposition doit être en rapport avec une musique déjà présente
+- RG111 : Une proposition peut recevoir des commentaires
+- RG112 : Une proposition peut recevoir des votes
 
 ### Favoris
-- RG¤ : Un favoris doit appartenir à un joueur
-- RG¤ : Un favoris peut concerner une musique
-- RG¤ : Un favoris peut concerner une playlist
-- RG¤ : Un favoris peut concerner une bande-son
-- RG¤ : Un favoris ne peut pas être ajouté deux fois
-- RG¤ : Un favoris peut être supprimé
+- RG113 : Un favoris doit appartenir à un joueur
+- RG114 : Un favoris peut concerner une musique
+- RG115 : Un favoris peut concerner une playlist
+- RG116 : Un favoris peut concerner une bande-son
+- RG117 : Un favoris ne peut pas être ajouté deux fois
+- RG118 : Un favoris peut être supprimé
 
 ### Synchronisation 
-- RG¤ : Un joueur peut synchroniser une bibliothèque d'un compte extérieur
+- RG119 : Un joueur peut synchroniser une bibliothèque d'un compte extérieur
 
 ### Compte extérieur
-- RG¤ : Un compte extérieur doit être lié au profil du joueur
-- RG¤ : Un compte extérieur doit provenir d'une plateforme reconnue
-- RG¤ : Un compte extérieur peut être utilisé pour importer une bibliothèque
+- RG¤120 : Un compte extérieur doit être lié au profil du joueur
+- RG121 : Un compte extérieur doit provenir d'une plateforme reconnue
+- RG122 : Un compte extérieur peut être utilisé pour importer une bibliothèque
