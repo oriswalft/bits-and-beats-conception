@@ -61,7 +61,16 @@
 ### Plateforme
 - RG¤ : Une plateforme doit avoir un nom
 - RG¤ : Une plateforme peut être attribuée à un ou plusieurs jeux
-  
+- RG¤ : Une plateforme peut avoir un logo
+- RG¤ : Une plateforme peut avoir un résumé
+- RG¤ : Une plateforme peut avoir un site web
+
+### Pochette
+- RG¤ : Une pochette doit être une image
+- RG¤ : Une pochette peut être attribuée à un jeu
+- RG¤ : Une pochette peut être attribuée à une bande-son
+- RG¤ : Une pochette peut être attribuée à une musique
+
 ### Bande-son
 - RG¤ : Une bande-son doit être tiré d'un jeu
 - RG¤ : Une bande-son doit avoir un titre
