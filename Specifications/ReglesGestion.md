@@ -1,28 +1,28 @@
 # Règles de gestion
 
 ### Joueur
-- RG¤ : Un joueur doit avoir un pseudonyme
-- RG¤ : Un joueur doit avoir une adresse email unique
-- RG¤ : Un joueur doit avoir un mot de passe
-- RG¤ : Un joueur doit avoir un rôle
-- RG¤ : Un joueur peut avoir une photo de profil
-- RG¤ : Un joueur peut avoir une bibliothèque
-- RG¤ : Un joueur peut avoir des jeux favoris
-- RG¤ : Un joueur peut avoir des musiques favorites
-- RG¤ : Un joueur peut avoir des bande-sons favorites
-- RG¤ : Un joueur peut faire des playlist
-- RG¤ : Un joueur peut avoir des playlists
-- RG¤ : Un joueur peut proposer des musiques 
-- RG¤ : Un joueur peut faire des recherches
-- RG¤ : Un joueur peut donner son vote sur la correspondance d'une musique
-- RG¤ : Un joueur peut avoir un historique de recherche
-- RG¤ : Un joueur peut poster un commentaire sur une proposition de musique qui lui appartient ou celle d'un autre joueur
-- RG¤ : Un joueur peut modifier son profil
-- RG¤ : Un joueur peut effacer son profil
-- RG¤ : Un joueur peut avoir des comptes extérieur
-- RG¤ : Un joueur peut synchroniser sa bibliothèque avec un compte extérieur
-- RG¤ : Un joueur peut afficher ou non ses comptes extérieur
-- RG¤ : Un joueur peut révoquer l'accès au compte extérieur
+- RG1 : Un joueur doit avoir un pseudonyme
+- RG2 : Un joueur doit avoir une adresse email unique
+- RG3 : Un joueur doit avoir un mot de passe
+- RG4 : Un joueur doit avoir un rôle
+- RG5 : Un joueur peut avoir une photo de profil
+- RG6 : Un joueur peut avoir une bibliothèque
+- RG7 : Un joueur peut avoir des jeux favoris
+- RG8 : Un joueur peut avoir des musiques favorites
+- RG9 : Un joueur peut avoir des bande-sons favorites
+- RG10 : Un joueur peut faire des playlist
+- RG11 : Un joueur peut avoir des playlists
+- RG12 : Un joueur peut proposer des musiques 
+- RG13 : Un joueur peut faire des recherches
+- RG14 : Un joueur peut donner son vote sur la correspondance d'une musique
+- RG15 : Un joueur peut avoir un historique de recherche
+- RG16 : Un joueur peut poster un commentaire sur une proposition de musique qui lui appartient ou celle d'un autre joueur
+- RG17 : Un joueur peut modifier son profil
+- RG18 : Un joueur peut effacer son profil
+- RG19 : Un joueur peut avoir des comptes extérieur
+- RG20 : Un joueur peut synchroniser sa bibliothèque avec un compte extérieur
+- RG22 : Un joueur peut afficher ou non ses comptes extérieur
+- RG23 : Un joueur peut révoquer l'accès au compte extérieur
 
 ### Rôle
 - RG¤ : Un rôle doit avoir un nom unique
