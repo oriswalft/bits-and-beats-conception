@@ -7,7 +7,9 @@
 - RG¤ : Un joueur peut avoir une bibliothèque
 - RG¤ : Un joueur peut avoir des jeux favoris
 - RG¤ : Un joueur peut avoir des musiques favorites
+- RG¤ : Un joueur peut avoir des bande-sons favorites
 - RG¤ : Un joueur peut faire des playlist
+- RG¤ : Un joueur peut avoir des playlists
 - RG¤ : Un joueur peut proposer des musiques 
 - RG¤ : Un joueur peut faire des recherches
 - RG¤ : Un joueur peut donner son vote sur la correspondance d'une musique
@@ -15,12 +17,15 @@
 - RG¤ : Un joueur peut poster un commentaire sur une proposition de musique qui lui appartient ou celle d'un autre joueur
 - RG¤ : Un joueur peut modifier son profil
 - RG¤ : Un joueur peut effacer son profil
+- RG¤ : Un joueur peut avoir des comptes extérieur
+- RG¤ : Un joueur peut synchroniser sa bibliothèque avec un compte extérieur
 - RG¤ : Un joueur peut afficher ou non ses comptes extérieur
 - RG¤ : Un joueur peut révoquer l'accès au compte extérieur
 
 # Rôle
 - RG¤ : Un rôle doit avoir un nom unique
 - RG¤ : Un rôle doit avoir des permissions
+- RG¤ : Un rôle peut être attribué à un ou plusieurs joueurs
 
 # Bibliothèque 
 - RG¤ : Une bibliothèque doit appartenir à un joueur
