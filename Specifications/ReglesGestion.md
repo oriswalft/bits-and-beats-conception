@@ -37,6 +37,13 @@
 - RG¤ : Un jeu doit avoir un développeur
 - RG¤ : Un jeu doit avoir un genre
 - RG¤ : Un jeu doit avoir une année de sortie
+- RG¤ : Un jeu doit avoir une ou plusieurs plateformes
+- RG¤ : Un jeu doit avoir une bande-son
+- RG¤ : Un jeu peut avoir une pochette
+- RG¤ : Un jeu peut avoir un résumé
+- RG¤ : Un jeu peut avoir un ou plusieurs tags
+- RG¤ : Un jeu peut être en favoris d'un ou plusieurs joueurs
+
   
 # Développeur
 - RG¤ : Un développeur doit avoir un nom
