@@ -25,9 +25,9 @@
 - RG23 : Un joueur peut révoquer l'accès au compte extérieur
 
 ### Rôle
-- RG¤ : Un rôle doit avoir un nom unique
-- RG¤ : Un rôle doit avoir des permissions
-- RG¤ : Un rôle peut être attribué à un ou plusieurs joueurs
+- RG24 : Un rôle doit avoir un nom unique
+- RG25 : Un rôle doit avoir des permissions
+- RG26 : Un rôle peut être attribué à un ou plusieurs joueurs
 
 ### Bibliothèque 
 - RG¤ : Une bibliothèque doit appartenir à un joueur
