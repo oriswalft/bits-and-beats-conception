@@ -1,18 +1,25 @@
 # RBAC 
 
-|                                       | Visiteur | Joueur | Modérateur | Administrateur |
-| ------------------------------------- | -------- | ------ | ---------- | -------------- |
-| Création de compte                    | V        | X      | X          | X              |
-| Connexion                             | V        | X      | V          | V              |
-| Consulter le contenu de la plateforme | V        | V      | V          | V              |
-| Consulter un profil                   | V        | V      | V          | V              |
-| Modifier son profil                   | X        | V      | X          | V              |
-| Supprimer un joueur                   | X        | X      | X          | V              |
-| Publier un commentaire                | X        | V      | V          | V              |
-| Modifier un commentaire               | X        | V      | V          | V              |
-| Supprimer un commentaire              | X        | V      | V          | V              |
-| Signaler un contenu                   | X        | V      | V          | V              |
-
+|                                       | Visiteur | Joueur | Modérateur  | Administrateur |
+| ------------------------------------- | -------- | ------ | ----------- | -------------- |
+| Création de compte                    | V        | X      | X           | X              |
+| Connexion                             | V        | X      | V           | V              |
+| Déconnexion                           | X        | V      | V           | V              |
+| Consulter la liste des joueurs        | V        | V      | V           | V              |
+| Proposer des musiques                 | X        | V      | V           | V              |
+| Consulter les musiques                | V        | V      | V           | V              |
+| Consulter les playlists               | V        | V      | V           | V              |
+| Créer une playlist                    | X        | V      | V           | V              |
+| Modifier une playlist                 | X        | V      | V           | V              |
+| Supprimer une playlist                | X        | V      | V           | V              |
+| Consulter le contenu de la plateforme | V        | V      | V           | V              |
+| Consulter un profil                   | V        | V      | V           | V              |
+| Modifier son profil                   | X        | V      | X           | V              |
+| Supprimer un joueur                   | X        | X      | X           | V              |
+| Publier un commentaire                | X        | V      | V           | V              |
+| Modifier un commentaire               | X        | V      | V           | V              |
+| Supprimer un commentaire              | X        | V      | V           | V              |
+| Signaler un contenu                   | X        | V      | V           | V              |
 | Gérer les joueurs                     | X        | X      | X           | V              |
 | Gérer les modérateurs                 | X        | X      | X           | V              |
 | Gérer les administrateurs             | X        | X      | X           | V              |
