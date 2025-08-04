@@ -26,11 +26,11 @@ Définit les différents rôles d'utilisateurs dans le système.
 ## Table: **historique**
 Enregistre l'historique des actions des joueurs.
 
-| Champ              | Type     | Contraintes                            | Description                               |
-| ------------------ | -------- | -------------------------------------- | ----------------------------------------- |
-| historique_id      | UUID     | PRIMARY KEY, DEFAULT gen_random_uuid() | Identifiant unique de l'entrée historique |
-| historique_contenu | TEXT     |                                        | Contenu/description de l'action           |
-| historique_date    | DATETIME | NOT NULL                               | Date et heure de l'action                 |
+| Champ              | Type      | Contraintes                            | Description                               |
+| ------------------ | --------- | -------------------------------------- | ----------------------------------------- |
+| historique_id      | UUID      | PRIMARY KEY, DEFAULT gen_random_uuid() | Identifiant unique de l'entrée historique |
+| historique_contenu | TEXT      |                                        | Contenu/description de l'action           |
+| historique_quand   | TIMESTAMP | NOT NULL                               | Date et heure de l'action                 |
 
 ---
 
