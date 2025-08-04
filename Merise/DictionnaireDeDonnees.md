@@ -325,14 +325,14 @@ Stocke les genres de jeux.
 ### Table: **developpeurs**
 Stocke les informations des développeurs de jeux.
 
-| Champ                | Type    | Contraintes                            | Description                       |
-| -------------------- | ------- | -------------------------------------- | --------------------------------- |
-| developpeurs_id      | UUID    | PRIMARY KEY, DEFAULT gen_random_uuid() | Identifiant unique du développeur |
-| developpeur_nom      | VARCHAR | NOT NULL                               | Nom du développeur                |
-| developpeur_website  | VARCHAR |                                        | Site web du développeur           |
-| developpeur_logo     | VARCHAR |                                        | Lien vers le logo                 |
-| developpeur_desc     | TEXT    |                                        | Description du développeur        |
-| developpeur_siglenom | VARCHAR |                                        | Sigle/acronyme                    |
+| Champ               | Type    | Contraintes                            | Description                       |
+| ------------------- | ------- | -------------------------------------- | --------------------------------- |
+| developpeurs_id     | UUID    | PRIMARY KEY, DEFAULT gen_random_uuid() | Identifiant unique du développeur |
+| developpeur_nom     | VARCHAR | NOT NULL                               | Nom du développeur                |
+| developpeur_website | VARCHAR |                                        | Site web du développeur           |
+| developpeur_logo    | VARCHAR |                                        | Lien vers le logo                 |
+| developpeur_resume  | TEXT    |                                        | Description du développeur        |
+| developpeur_isgroup | BOOLEAN |                                        | Est un groupe ou non              |
 
 ---
 
@@ -343,7 +343,7 @@ Stocke les plateformes de jeu.
 | ----------------- | ------- | -------------------------------------- | ----------------------------------- |
 | plateforme_id     | UUID    | PRIMARY KEY, DEFAULT gen_random_uuid() | Identifiant unique de la plateforme |
 | plateforme_nom    | VARCHAR | NOT NULL                               | Nom de la plateforme                |
-| plateforme_devnom | VARCHAR |                                        | Nom du développeur de la plateforme |
+| plateforme_abrege | VARCHAR |                                        | Forme abrégé de la plateforme       |
 
 ---
 
@@ -360,12 +360,13 @@ Table de liaison entre plateformes et jeux vidéo.
 ### Table: **comptes_exterieur**
 Gère les comptes externes des joueurs.
 
-| Champ                | Type    | Contraintes                            | Description                          |
-| -------------------- | ------- | -------------------------------------- | ------------------------------------ |
-| comptes_ext_id       | UUID    | PRIMARY KEY, DEFAULT gen_random_uuid() | Identifiant unique du compte externe |
-| comptes_ext_pseudo   | VARCHAR |                                        | Pseudo sur la plateforme externe     |
-| comptes_ext_victoire | BOOLEAN |                                        | Indicateur de victoire               |
-| plateforme_jv_id     | UUID    | FOREIGN KEY                            | Référence vers plateforme_jv         |
+| Champ                  | Type    | Contraintes                            | Description                                               |
+| ---------------------- | ------- | -------------------------------------- | --------------------------------------------------------- |
+| comptes_ext_id         | UUID    | PRIMARY KEY, DEFAULT gen_random_uuid() | Identifiant unique du compte externe                      |
+| comptes_ext_pseudo     | VARCHAR |                                        | Pseudo sur la plateforme externe                          |
+| comptes_ext_visibilite | BOOLEAN |                                        | Si le joueur veut afficher ou non son compte publiquement |
+| plateforme_jv_id       | UUID    | FOREIGN KEY                            | Référence vers plateforme_jv                              |
+| joueurs_id             | UUID    | FOREIGN KEY                            | Référence vers joueurs                                    |
 
 ---
 
