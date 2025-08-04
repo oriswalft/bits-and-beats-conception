@@ -15,3 +15,10 @@
 | roles_id | INT     | PRIMARY KEY, AUTO_INCREMENT | Identifiant unique du rôle             |
 | role_nom | VARCHAR | NOT NULL                    | Nom du rôle (admin, utilisateur, etc.) |
 
+### Historique
+
+| Champ              | Type     | Contraintes                 | Description                               |
+| ------------------ | -------- | --------------------------- | ----------------------------------------- |
+| historique_id      | INT      | PRIMARY KEY, AUTO_INCREMENT | Identifiant unique de l'entrée historique |
+| historique_contenu | TEXT     |                             | Contenu/description de l'action           |
+| historique_date    | DATETIME | NOT NULL                    | Date et heure de l'action                 |
