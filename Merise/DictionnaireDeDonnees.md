@@ -3,22 +3,29 @@
 ### Joueurs
 | Champ          | Type    | Contraintes                 | Description                   |
 | -------------- | ------- | --------------------------- | ----------------------------- |
-| joueurs_id     | INT     | PRIMARY KEY, AUTO_INCREMENT | Identifiant unique du joueur  |
+| joueurs_id     | UUID    | PRIMARY KEY, AUTO_INCREMENT | Identifiant unique du joueur  |
 | joueurs_email  | VARCHAR | NOT NULL, UNIQUE            | Adresse email du joueur       |
 | joueurs_mdp    | VARCHAR | NOT NULL                    | Mot de passe (hashé)          |
 | joueurs_pseudo | VARCHAR | NOT NULL, UNIQUE            | Pseudo/nom d'utilisateur      |
-| roles_id       | INT     | FOREIGN KEY                 | Référence vers la table roles |
+| roles_id       | UUID    | FOREIGN KEY                 | Référence vers la table roles |
 
 ### Rôles
 | Champ    | Type    | Contraintes                 | Description                            |
 | -------- | ------- | --------------------------- | -------------------------------------- |
-| roles_id | INT     | PRIMARY KEY, AUTO_INCREMENT | Identifiant unique du rôle             |
+| roles_id | UUID    | PRIMARY KEY, AUTO_INCREMENT | Identifiant unique du rôle             |
 | role_nom | VARCHAR | NOT NULL                    | Nom du rôle (admin, utilisateur, etc.) |
 
 ### Historique
 
 | Champ              | Type     | Contraintes                 | Description                               |
 | ------------------ | -------- | --------------------------- | ----------------------------------------- |
-| historique_id      | INT      | PRIMARY KEY, AUTO_INCREMENT | Identifiant unique de l'entrée historique |
+| historique_id      | UUID     | PRIMARY KEY, AUTO_INCREMENT | Identifiant unique de l'entrée historique |
 | historique_contenu | TEXT     |                             | Contenu/description de l'action           |
 | historique_date    | DATETIME | NOT NULL                    | Date et heure de l'action                 |
+
+### joueurs_historiques
+
+| Champ         | Type | Contraintes | Description               |
+| ------------- | ---- | ----------- | ------------------------- |
+| joueurs_id    | INT  | FOREIGN KEY | Référence vers joueurs    |
+| historique_id | INT  | FOREIGN KEY | Référence vers historique |
