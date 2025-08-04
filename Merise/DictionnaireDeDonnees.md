@@ -37,6 +37,27 @@
 | musiques_id  | UUID    | PRIMARY KEY, DEFAULT gen_random_uuid() | Identifiant unique de la musique |
 | musiques_nom | VARCHAR | NOT NULL                               | Titre de la musique              |
 
+### favoris_musiques
+
+| Champ       | Type | Contraintes | Description             |
+| ----------- | ---- | ----------- | ----------------------- |
+| joueurs_id  | UUID | FOREIGN KEY | Référence vers joueurs  |
+| musiques_id | UUID | FOREIGN KEY | Référence vers musiques |
+
+### Vote
+
+| Champ           | Type | Contraintes | Description                             |
+| --------------- | ---- | ----------- | --------------------------------------- |
+| joueurs_id      | UUID | FOREIGN KEY | Référence vers joueurs                  |
+| prop_musique_id | UUID | FOREIGN KEY | Référence vers propositions_musique     |
+| vote_valeur     | INT  | NOT NULL    | Valeur du vote (1 pour oui, 0 pour non) |
+
+### Propositions_musique
+| Champ              | Type    | Contraintes                            | Description                          |
+| ------------------ | ------- | -------------------------------------- | ------------------------------------ |
+| prop_musique_id    | UUID    | PRIMARY KEY, DEFAULT gen_random_uuid() | Identifiant unique de la proposition |
+| prop_musique_titre | VARCHAR | NOT NULL                               | Titre de la musique proposée         |
+| musiques_id        | UUID    | FOREIGN KEY                            | Référence vers musiques              |
 
 ### Comptes_exterieurs
 | Champ          | Type | Contraintes                 | Description                          |
