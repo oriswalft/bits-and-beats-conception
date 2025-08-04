@@ -67,10 +67,11 @@ Gère les musiques favorites des joueurs.
 ## Table: **vote**
 Stocke les votes des joueurs sur les musiques.
 
-| Champ           | Type | Contraintes | Description                         |
-| --------------- | ---- | ----------- | ----------------------------------- |
-| joueurs_id      | UUID | FOREIGN KEY | Référence vers joueurs              |
-| prop_musique_id | UUID | FOREIGN KEY | Référence vers propositions_musique |
+| Champ           | Type     | Contraintes | Description                         |
+| --------------- | -------- | ----------- | ----------------------------------- |
+| joueurs_id      | UUID     | FOREIGN KEY | Référence vers joueurs              |
+| prop_musique_id | UUID     | FOREIGN KEY | Référence vers propositions_musique |
+| vote_valeur     | SMALLINT | NOT NULL    | Valeur du vote                      |
 
 ---
 
@@ -116,7 +117,7 @@ Stocke les différentes sources de musique (plateformes, services).
 
 ---
 
-## Table: **disponible**
+## Table: **bande_son_source**
 Gère la disponibilité des musiques sur différentes sources.
 
 | Champ        | Type | Contraintes | Description              |
@@ -146,7 +147,7 @@ Table de liaison entre bandes sonores et musiques.
 
 ---
 
-## Table: **doit_avoir**
+## Table: **bande_son_tag**
 Définit les relations obligatoires entre bandes sonores et tags.
 
 | Champ        | Type | Contraintes | Description              |
