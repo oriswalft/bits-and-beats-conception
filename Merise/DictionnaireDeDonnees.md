@@ -17,15 +17,16 @@
 
 ### Historique
 
-| Champ              | Type     | Contraintes                 | Description                               |
-| ------------------ | -------- | --------------------------- | ----------------------------------------- |
-| historique_id      | UUID     | PRIMARY KEY, AUTO_INCREMENT | Identifiant unique de l'entrée historique |
-| historique_contenu | TEXT     |                             | Contenu/description de l'action           |
-| historique_date    | DATETIME | NOT NULL                    | Date et heure de l'action                 |
+| Champ              | Type      | Contraintes                 | Description                               |
+| ------------------ | --------- | --------------------------- | ----------------------------------------- |
+| historique_id      | UUID      | PRIMARY KEY, AUTO_INCREMENT | Identifiant unique de l'entrée historique |
+| historique_contenu | TEXT      |                             | Contenu/description de l'action           |
+| historique_quand   | TIMESTAMP | NOT NULL                    | Date et heure de l'action                 |
 
 ### joueurs_historiques
 
 | Champ         | Type | Contraintes | Description               |
 | ------------- | ---- | ----------- | ------------------------- |
-| joueurs_id    | INT  | FOREIGN KEY | Référence vers joueurs    |
-| historique_id | INT  | FOREIGN KEY | Référence vers historique |
+| joueurs_id    | UUID | FOREIGN KEY | Référence vers joueurs    |
+| historique_id | UUID | FOREIGN KEY | Référence vers historique |
+
