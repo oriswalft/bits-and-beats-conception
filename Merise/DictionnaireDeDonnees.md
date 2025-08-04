@@ -8,3 +8,10 @@
 | joueurs_mdp    | VARCHAR | NOT NULL                    | Mot de passe (hashé)          |
 | joueurs_pseudo | VARCHAR | NOT NULL, UNIQUE            | Pseudo/nom d'utilisateur      |
 | roles_id       | INT     | FOREIGN KEY                 | Référence vers la table roles |
+
+### Rôles
+| Champ    | Type    | Contraintes                 | Description                            |
+| -------- | ------- | --------------------------- | -------------------------------------- |
+| roles_id | INT     | PRIMARY KEY, AUTO_INCREMENT | Identifiant unique du rôle             |
+| role_nom | VARCHAR | NOT NULL                    | Nom du rôle (admin, utilisateur, etc.) |
+
